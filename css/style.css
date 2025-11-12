@@ -9714,4 +9714,31 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+#certificates-section .carousel-testimony .item,
+#certificates-section .testimony-wrap {
+    background: transparent !important; /* إزالة أي خلفية */
+    box-shadow: none !important;       /* إزالة أي ظل */
+}
     
+#certificates-section {
+    background: none; /* إزالة أي خلفية */
+    padding: 60px 0;
+}
+
+#certificates-section .carousel-testimony .item {
+    height: 450px; /* ارتفاع ثابت لكل container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* توسيط الصور أفقياً */
+    justify-content: center;   /* توسيط الصور عمودياً */
+    text-align: center;
+    background: none; /* إزالة خلفية العنصر الداخلي */
+    box-shadow: none; /* إزالة أي ظل إذا موجود */
+}
+
+#certificates-section .certificate-img {
+    max-height: 100%;     /* الصورة لا تتجاوز ارتفاع container */
+    width: auto;          /* العرض حسب النسبة */
+    object-fit: contain;  /* يحافظ على نسبة الصورة */
+    display: block;
+}
