@@ -9424,7 +9424,7 @@ textarea.form-control {
     height: inherit !important; }
 
 .dbox {
-  width: 100%;
+  width: 25%;
   margin-bottom: 0px; }
   @media (max-width: 767.98px) {
     .dbox {
@@ -9741,4 +9741,25 @@ textarea.form-control {
     width: auto;          /* العرض حسب النسبة */
     object-fit: contain;  /* يحافظ على نسبة الصورة */
     display: block;
+}
+.ftco-counter .icon i {
+		color: #fff;
+		font-size: 32px; /* الحجم أكبر شوية من العادي */
+	}
+
+  .overlay-blocker {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0); /* شفافة تمامًا */
+		z-index: 10;
+		pointer-events: all; /* تمنع التفاعل */}
+
+    #contact-section .row.justify-content-center {
+    display: flex;
+    justify-content: center; /* عشان يكونوا في النص */
+    flex-wrap: nowrap;       /* منع الانكسار لسطر جديد */
+    gap: 30px;               /* مسافة بسيطة بينهم */
 }
