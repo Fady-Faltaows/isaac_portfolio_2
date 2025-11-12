@@ -9763,3 +9763,22 @@ textarea.form-control {
     flex-wrap: nowrap;       /* منع الانكسار لسطر جديد */
     gap: 30px;               /* مسافة بسيطة بينهم */
 }
+
+
+@media (max-width: 767.98px) {
+  .contact-section .dbox {
+    flex-direction: row !important; /* الأيقونة جنب النص */
+    align-items: center !important;
+    width: 100%; /* تخلي السطر كامل */
+    margin-bottom: 50px !important;
+  }
+
+  .contact-section .dbox .icon {
+    margin: 0 10px 0 0 !important; /* يبقى الأيقونة على الشمال من النص */
+  }
+
+  .contact-section .dbox .text {
+    width: auto !important;
+    padding-left: 0 !important;
+  }
+}
